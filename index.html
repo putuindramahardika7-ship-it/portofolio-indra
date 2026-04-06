@@ -38,19 +38,30 @@
         </div>
     </nav>
 
-    <header class="bg-header-bg text-center p-16 relative overflow-hidden">
-        <img src="https://images.unsplash.com/photo-1598124146163-36819847286d?q=80&w=1920&auto=format&fit=crop" 
-             alt="Latar Belakang Putu Indra"
-             class="absolute inset-0 w-full h-full object-cover object-center opacity-30 z-0">
+<header class="bg-header-bg text-center p-8 md:p-16 relative overflow-hidden min-h-[350px] flex items-center justify-center">
+    <img src="https://images.unsplash.com/photo-1598124146163-36819847286d?q=80&w=1920&auto=format&fit=crop" 
+         alt="Latar Belakang Putu Indra"
+         class="absolute inset-0 w-full h-full object-cover object-center opacity-30 z-0">
+    
+    <div class="relative z-10 flex flex-col items-center w-full px-4">
         
-        <div class="relative z-10 flex flex-col items-center">
-            <div class="w-24 h-24 bg-blue-600 rounded-full border-4 border-white shadow-xl flex items-center justify-center text-white text-3xl font-bold mb-4">
-                P
-            </div>
-            <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Putu Indra Mahardika</h1>
-            <p class="text-gray-300 mt-3 text-xl font-light">Teknik Informatika | Web Developer | AI & IoT Enthusiast</p>
+        <div class="w-20 h-20 md:w-24 md:h-24 bg-blue-600 rounded-full border-4 border-white shadow-xl flex items-center justify-center text-white text-2xl md:text-3xl font-bold mb-4 overflow-hidden">
+            <img src="./img/Diri_saya.jpg" onerror="this.style.display='none'" class="w-full h-full object-cover">
+            <span class="absolute"></span>
         </div>
-    </header>
+        
+        <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            Putu Indra Mahardika
+        </h1>
+        
+        <p class="text-gray-300 mt-3 text-sm md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+            Teknik Informatika <span class="hidden md:inline">|</span> <br class="md:hidden"> 
+            Web Developer <span class="hidden md:inline">|</span> <br class="md:hidden"> 
+            AI & IoT Enthusiast
+        </p>
+
+    </div>
+</header>
 
     <main class="max-w-7xl mx-auto -mt-8 relative z-20 pb-16 px-4">
         <div class="bg-white p-8 md:p-12 rounded-xl shadow-2xl border border-gray-100">
